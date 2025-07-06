@@ -1,5 +1,10 @@
 # AI에 대해 공부해보자!
 
+## 실습 사양
+- Ryzen 7 8845HS
+- 32GB RAM
+- RTX 4060 Laptop
+
 [ML에 대한 Google Developers](https://developers.google.com/machine-learning/crash-course/classification/programming-exercise?hl=ko)
 
 ## Pytorch
