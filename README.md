@@ -2,6 +2,8 @@
 
 ## Pytorch
 
+[위키독스 Pytorch 교재](https://wikidocs.net/book/2788)
+
 ## Tensorflow
 
 ### 손실함수(Loss Function)
