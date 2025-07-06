@@ -1,10 +1,15 @@
 # AI에 대해 공부해보자!
 
+[ML에 대한 Google Developers](https://developers.google.com/machine-learning/crash-course/classification/programming-exercise?hl=ko)
+
 ## Pytorch
 
-[위키독스 Pytorch 교재](https://wikidocs.net/book/2788)
+- [Pytorch 오피셜 튜토리얼](https://docs.pytorch.org/tutorials/)
+- [위키독스 Pytorch 교재](https://wikidocs.net/book/2788)
 
-## Tensorflow
+## TensorFlow
+
+- [TensorFlow 오피셜 튜토리얼](https://www.tensorflow.org/tutorials?hl=ko)
 
 ### 손실함수(Loss Function)
 
