@@ -21,6 +21,6 @@
 
 
 #### 실습 사양
-- Ryzen 7 8845HS
+- AMD Ryzen 7 8845HS
 - 32GB RAM
-- RTX 4060 Laptop
+- NVIDIA GeForce RTX 4060 Laptop
