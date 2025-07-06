@@ -1,9 +1,9 @@
 # AI에 대해 공부해보자!
 
-##Pytorch
+## Pytorch
 
-##Tensorflow
+## Tensorflow
 
-###손실함수(Loss Function)
+### 손실함수(Loss Function)
 
-###대학합격예측모델
+### 대학합격예측모델
