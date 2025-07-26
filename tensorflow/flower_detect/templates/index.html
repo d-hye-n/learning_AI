@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Flower Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .result-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card text-center">
+            <h1 class="mb-4">Which Flower Is It?</h1>
+            <form method=post enctype=multipart/form-data>
+                <div class="custom-file mb-3">
+                    <input type=file name=file class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                </div>
+                <button type=submit class="btn btn-primary btn-block">Upload and Classify</button>
+            </form>
+
+            {% if prediction %}
+            <div class="mt-5">
+                <h2>Prediction: <span class="text-success">{{ prediction }}</span></h2>
+                <h4>Confidence: <span class="text-muted">{{ confidence }}%</span></h4>
+                {% if filename %}
+                    <img src="{{ url_for('static', filename='uploads/' + filename) }}" class="result-img">
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script>
+        // Update the label of the custom file input
+        document.querySelector('.custom-file-input').addEventListener('change',function(e){
+          var fileName = document.getElementById("customFile").files[0].name;
+          var nextSibling = e.target.nextElementSibling
+          nextSibling.innerText = fileName
+        })
+    </script>
+</body>
+</html>
