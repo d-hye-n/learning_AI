@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('gpascore.csv')
+data = pd.read_csv('cdapple/gpascore.csv')
 
 data = data.dropna()
 ydata = data['admit'].values
