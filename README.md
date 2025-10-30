@@ -8,15 +8,25 @@
 - [Pytorch 오피셜 튜토리얼](https://docs.pytorch.org/tutorials/)
 - [위키독스 Pytorch 교재](https://wikidocs.net/book/2788)
 
+### Kaggle
+
+- Titanic
+- housing
+
+### HuggingFace
+
+### 대학합격예측모델
+
+[코딩애플 유튜브](https://www.youtube.com/watch?v=8ftqlASt6HY&list=PLfLgtT94nNq1DrREU_qG2w4yd2ZzJb-FG&index=10)
+
+
 ## TensorFlow
 
 - [TensorFlow 오피셜 튜토리얼](https://www.tensorflow.org/tutorials?hl=ko)
 
 ### 손실함수(Loss Function)
 
-### 대학합격예측모델
 
-[코딩애플 유튜브](https://www.youtube.com/watch?v=8ftqlASt6HY&list=PLfLgtT94nNq1DrREU_qG2w4yd2ZzJb-FG&index=10)
 
 
 
