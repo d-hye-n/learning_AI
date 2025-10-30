@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/pytorch/kaggle/home-data-for-ml-course/train.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/pytorch/kaggle/input/home-data-for-ml-course/train.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
